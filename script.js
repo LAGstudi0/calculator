@@ -44,7 +44,17 @@ function operate(x, operand, y) {
     }
 }
 
-console.log(operate(5, '-', 5));
-console.log(operate(5, '+', 5));
-console.log(operate(5, '/', 5));
-console.log(operate(5, '*', 5));
+const display = document.querySelector('#display');
+const buttons = document.querySelector('.key-num')
+
+
+
+
+
+// function that changes the display
+
+function changeDisplay(text)    {
+    document.getElementById('display').innerHTML = text;
+}
+
+
