@@ -1,0 +1,104 @@
+/* *   {
+    border: 2px solid red;
+} */
+
+html    {
+    height: 100%;
+    width: 100%;
+    background-color: #1c1c1c;
+}
+
+body    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title  {
+    display: flex;
+    justify-content: center;
+}
+
+.container-calculator   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding: 15px;
+}
+
+.buttons    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+/* CSS */
+button {
+    background-color: #505050;
+    border: 2px solid black;
+    border-radius: 30px;
+    /* box-shadow: grey 4px 4px 0 0; */
+    color: #d4d4d2;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  button:hover {
+    background-color: #fff;
+  }
+  
+  button:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    button {
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  }
+
+  h1    {
+    color: white;
+  }
+
+
+.key-operand    {
+    background-color: #FF9500;
+}
+
+#display    {
+    color: white;
+}
+
+.layer-1, .layer-2, .layer-3, .layer-4   {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+.layer-5    {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 30px;
+}
+
+.grey   {
+    background-color: #d4d4d2;
+    color: #1c1c1c;
+}
