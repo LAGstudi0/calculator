@@ -122,7 +122,7 @@ function resetCalculus()    {
     calculus.typeOfOperand = null;
     calculus.result = null;
 }
-// doesnt work
+// doesnt workg
 function clear()    {
     resetCalculus();
     changeDisplay("");

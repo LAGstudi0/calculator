@@ -36,7 +36,8 @@ body    {
     height: fit-content;
     width: fit-content;
     padding: 15px;
-    height: 500px;
+    height: 35em;
+    width: 35em;
 }
 
 .buttons    {
