@@ -9,7 +9,7 @@
     <body>
         <div class="title"><h1>The Calculator</h1></div>
         <div class="container-calculator">
-            <div id="display">000</div>
+            <div class="display"><h1 id="display">000</h1></div>
             <div class="buttons">
                 <div class="layer-1">
                     <button class="key-clear grey" onclick="clear()">AC</button>
@@ -36,10 +36,10 @@
                     <button class="key-operand" onclick="storeOperand(this)" value="+">+</button>
                 </div>
                 <div class="layer-5">
-                    <button class="key-num" onclick="storeVal(this)" value="0">0</button>
+                    <button class="key-num cero" onclick="storeVal(this)" value="0">0</button>
                     <button class="key-dot">.</button>
                     <button class="key-operand" onclick="result()" value="=">=</button>
-
+                    <button class="key-operand" value="ans">ans</button>
                 </div>
             </div>
         </div>
